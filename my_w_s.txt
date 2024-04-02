@@ -1,5 +1,4 @@
 //profile-title: base64:8J+UpSBXQVJQIPCflKU=
-//profile-update-interval: 0
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
 warp://auto?ifp=10-20&ifps=40-100&ifpd=10-20#Warp_ir_10-20_40-100_10-20
