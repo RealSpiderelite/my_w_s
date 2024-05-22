@@ -2,6 +2,7 @@
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //https://github.com/RealSpiderelite/Quick_Warp_on_Warp
 //https://replit.com/@Realspiderelite/warpgo-sbfile-generator
+//curl -sSL https://raw.githubusercontent.com/azavaxhuman/Quick_Warp_on_Warp/main/install.sh -o install.sh && chmod +x install.sh && bash install.sh
 
 {
   "outbounds": 
@@ -9,8 +10,8 @@
     {
       "type": "wireguard",
       "tag": "Warp-IR2",
-      "server": "162.159.192.194",
-      "server_port": 5279,
+      "server": "162.159.192.15",
+      "server_port": 1018,
 
       "local_address": [
         "172.16.0.2/32",
@@ -27,8 +28,8 @@
       "type": "wireguard",
       "tag": "Warp-Main2",
       "detour": "Warp-IR2",
-      "server": "162.159.192.194",
-      "server_port": 5279,
+      "server": "162.159.192.15",
+      "server_port": 1018,
       
       "local_address": [
           "172.16.0.2/32",
