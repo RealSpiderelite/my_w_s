@@ -37,7 +37,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "0AJq",
-      "mtu": 1120,
+      "mtu": 1120
     }
   ]
 }
