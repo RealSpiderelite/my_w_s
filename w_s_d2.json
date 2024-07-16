@@ -1,0 +1,30 @@
+{
+  "outbounds": [
+    {
+      "type": "custom",
+      "tag": "National § 0",
+      "warp": {
+        "detour": "",
+        "fake_packets": "",
+        "fake_packets_delay": "",
+        "fake_packets_size": "",
+        "host": "wire.spcuteelite.eu.org",
+        "key": "p1",
+        "port": 1014
+      }
+    },
+    {
+      "type": "custom",
+      "tag": "WoW § 1",
+      "warp": {
+        "detour": "National § 0",
+        "fake_packets": "",
+        "fake_packets_delay": "",
+        "fake_packets_size": "",
+        "host": "wire.spcuteelite.eu.org",
+        "key": "p2",
+        "port": 1014
+      }
+    }
+  ]
+}
