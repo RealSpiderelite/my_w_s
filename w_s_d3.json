@@ -8,8 +8,8 @@
         "2606:4700:110:8bfe:c2d3:9b77:c721:52a4/128"
       ],
       "private_key": "SLQ0HhbaQwcYuNscPqMdWXTYl3SYUF6gul+K1ZHw8kQ=",
-      "server": "auto",
-      "server_port": 0,
+      "server": "wire.spcuteelite.eu.org",
+      "server_port": 1014,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "8pvR",
       "mtu": 1280,
