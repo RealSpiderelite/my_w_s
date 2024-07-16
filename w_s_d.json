@@ -1,0 +1,52 @@
+{
+    "outbounds": [
+      {
+        "type": "wireguard",
+        "tag": "WarpInWarp✅ § 0",
+        "local_address": [
+          "172.16.0.2/24",
+          "2606:4700:110:841e:1ebf:2047:971e:1111/128"
+        ],
+        "private_key": "YAh1nfTsy43DnTwky7LO11o1jHDhK8T1M2sVlu7SIF4=",
+        "server": "auto",
+        "server_port": 0,
+        "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+        "reserved": "yAtX",
+        "mtu": 1330,
+        "fake_packets": "1-3",
+        "fake_packets_size": "10-30",
+        "fake_packets_delay": "10-30"
+      },
+      {
+        "type": "wireguard",
+        "tag": "Warp 🇮🇷 IP § 1",
+        "detour": "WarpInWarp✅ § 0",
+        "local_address": [
+          "172.16.0.2/24",
+          "2606:4700:110:8fa6:dada:bae5:b346:cb3f/128"
+        ],
+        "private_key": "CDIHdtLctGwEnKlh2ru3TfB2kRaxMk2Pvt6IrqxpFnA=",
+        "server": "wire.spcuteelite.eu.org",
+        "server_port": 1014,
+        "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+        "reserved": "pFyv",
+        "mtu": 1330,
+        "fake_packets": "1-3",
+        "fake_packets_size": "10-30",
+        "fake_packets_delay": "10-30"
+      },
+      {
+        "type": "custom",
+        "tag": "Warp 🇮🇷 IP § 2",
+        "warp": {
+          "detour": "",
+          "fake_packets": "",
+          "fake_packets_delay": "",
+          "fake_packets_size": "",
+          "host": "ip2ifp=1-3",
+          "key": "p2",
+          "port": 0
+        }
+      }
+    ]
+  }
