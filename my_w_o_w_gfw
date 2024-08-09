@@ -4,7 +4,7 @@
       "domain:googleapis.cn": "googleapis.com"
     },
     "servers": [
-      "1.1.1.1"
+      "8.8.8.8"
     ]
   },
   "inbounds": [
@@ -51,7 +51,7 @@
           "172.16.0.2/32",
           "2606:4700:110:8388:d7c4:cef1:281a:d1e/128"
         ],
-        "mtu": 1350,
+        "mtu": 1280,
         "wnoise":"none",
         "peers": [
           {
@@ -77,11 +77,11 @@
           "172.16.0.2/32",
           "2606:4700:110:8f75:419d:442b:fdda:455a/128"
         ],
-        "mtu": 1330,
+        "mtu": 1365,
         "wnoise":"quic",
-        "wnoisedelay":"1",
-        "wnoisecount":"5-100",
-        "wpayloadsize":"20-40",
+        "wnoisedelay":"1-5",
+        "wnoisecount":"10-15",
+        "wpayloadsize":"5-10",
         "peers": [
           {
             "endpoint": "188.114.97.170:894",
