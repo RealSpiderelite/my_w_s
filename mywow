@@ -3,4 +3,4 @@
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
 warp://p1@auto?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m4&&detour=warp://p2@188.114.97.170:894#warp in warp
-warp://p1@auto?ifp=10-15&ifps=5-10&ifpd=1-1&ifpm=m4_bpb#m4&&detour=warp://p2@188.114.97.170:894#wow_bpb
+warp://p1@auto?ifp=10-15&ifps=5-10&ifpd=1-1&ifpm=m4#m4_bpb&&detour=warp://p2@188.114.97.170:894#wow_bpb
